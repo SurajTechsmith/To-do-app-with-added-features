@@ -145,9 +145,10 @@ function App() {
           </Col>
         </Row>
         <Row>
-          <ListGroup>
+          <ListGroup >
             {task.map((e) => (
               <ListGroup.Item
+            
                 className="d-flex justify-content-between"
                 id={e.id}
               >
@@ -174,7 +175,6 @@ function App() {
                   <Button className="align-self-center" variant="danger" onClick={() => Remove(e.id)}>
                     Remove
                   </Button>
-                </div>
                 </div>
               </ListGroup.Item>
             ))}
