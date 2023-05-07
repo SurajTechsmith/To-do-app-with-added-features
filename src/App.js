@@ -159,7 +159,7 @@ function App() {
                     onClick={() => stat(e)}
                     checked={e.status}
                   />
-                  <span className={e.status ? "line-through" : ""}>
+                  <span className={e.status ? "line-through" : ""} style={{ wordBreak: "break-all" }}>
                     {e.main}
                   </span>
                 </div>
