@@ -189,7 +189,7 @@ function App() {
           defaultValue={1}
           style={{ width: "50%" }}
         >
-   <ToggleButton variant="warning" disabled>
+   <ToggleButton className="dis-btn" variant="warning" disabled>
   <span className="d-flex align-items-center">
     <span className="mr-2">Task Left:</span>
     <span className="badge badge-warning">{active.length}</span>
