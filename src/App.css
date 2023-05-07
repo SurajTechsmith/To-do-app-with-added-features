@@ -33,5 +33,9 @@
     background-color: green !important;
     border-color: green !important;
   }
+    
+  .dis-btn {
+    opacity: 1 !important;
+  }
   
   
