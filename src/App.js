@@ -164,16 +164,17 @@ function App() {
                   </span>
                 </div>
 
-                <div>
-                  <Button
+                <div className="d-flex">
+                  <Button className="align-self-center"
                     variant="secondary"
                     onClick={() => Edit(e.main, e.id)}
                   >
                     Edit
                   </Button>{" "}
-                  <Button variant="danger" onClick={() => Remove(e.id)}>
+                  <Button className="align-self-center" variant="danger" onClick={() => Remove(e.id)}>
                     Remove
                   </Button>
+                </div>
                 </div>
               </ListGroup.Item>
             ))}
